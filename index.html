@@ -27,7 +27,9 @@
           <!-- Navigation -->
           <ul class="header-nav list">
             <li class="header-nav-list-item">
-              <a href="./index.html" class="header-nav link currentLink">Studio</a>
+              <a href="./index.html" class="header-nav link currentLink"
+                >Studio</a
+              >
             </li>
             <li class="header-nav-list-item">
               <a href="./portfolio.html" class="header-nav link">Portfolio</a>
@@ -60,15 +62,102 @@
       <section class="section hero">
         <div class="container centered">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button" data-modal-open>Order Service</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Order Service
+          </button>
         </div>
+        <!-- Backdrop & Modal window -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal-window">
+            <form class="contact-info">
+              <p class="modal-text">
+                Leave your contacts and we will call you back
+              </p>
+              <div class="input-wrap">
+                <label for="name" class="contact-info-label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  class="contact-info-input"
+                />
+                <svg class="modal-contact-icon">
+                  <use href="./images/sprite.svg#icon-person"></use>
+                </svg>
+              </div>
+
+              <div class="input-wrap">
+                <label for="phone" class="contact-info-label">Phone</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  required
+                  class="contact-info-input"
+                />
+                <svg class="modal-contact-icon">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+              </div>
+
+              <div class="input-wrap">
+                <label for="email" class="contact-info-label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  class="contact-info-input"
+                />
+                <svg class="modal-contact-icon">
+                  <use href="./images/sprite.svg#icon-email"></use>
+                </svg>
+              </div>
+
+              <div class="comment-wrap">
+                <label for="comment" class="contact-info-label">Comment</label>
+                <textarea
+                  rows="7"
+                  placeholder="Text input"
+                  class="comment-text"
+                  name="comment"
+                  id="comment"
+                ></textarea>
+              </div>
+
+              <div class="checkbox-wrap">
+                <input
+                  type="checkbox"
+                  name="policy-terms"
+                  id="terms"
+                  class="checkbox-input visually-hidden"
+                  required
+                />
+
+                <label for="terms" class="checkbox-label">
+                  <span class="checkbox-custom">
+                    <svg class="checkbox-icon">
+                      <use href="./images/sprite.svg#icon-checkbox-click"></use>
+                    </svg>
+                  </span>
+                  I accept the terms and conditions of the&nbsp;<a
+                    href=""
+                    class="terms-privacy"
+                    >Privacy Policy</a
+                  ></label
+                >
+              </div>
+
+              <button type="submit" class="submit-button">Send</button>
+            </form>
+
             <button type="button" class="modal-close" data-modal-close>
-            <svg class="modal-close-icon" width="8" height="8">
-              <use href="./images/sprite.svg#icon-close"></use>
-            </svg>
-          </button></div>
+              <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
       <!-- Section 1 -->
@@ -182,7 +271,6 @@
                           href="./images/sprite.svg#icon-instagram"
                           class="icon-svg"
                         />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -190,7 +278,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-twitter" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -198,7 +285,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-facebook" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -206,7 +292,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-linkedin" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -231,7 +316,6 @@
                           href="./images/sprite.svg#icon-instagram"
                           class="icon-svg"
                         />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -239,7 +323,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-twitter" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -247,7 +330,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-facebook" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -255,7 +337,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-linkedin" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -280,7 +361,6 @@
                           href="./images/sprite.svg#icon-instagram"
                           class="icon-svg"
                         />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -288,7 +368,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-twitter" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -296,7 +375,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-facebook" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -304,7 +382,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-linkedin" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -329,7 +406,6 @@
                           href="./images/sprite.svg#icon-instagram"
                           class="icon-svg"
                         />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -337,7 +413,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-twitter" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -345,7 +420,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-facebook" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -353,7 +427,6 @@
                     <a class="member-icon-link">
                       <svg class="member-icon">
                         <use href="./images/sprite.svg#icon-linkedin" />
-                        "
                       </svg>
                     </a>
                   </li>
@@ -387,7 +460,6 @@
                     width="104"
                     height="56"
                   />
-                  "
                 </svg>
               </a>
             </li>
@@ -399,7 +471,6 @@
                     width="104"
                     height="56"
                   />
-                  "
                 </svg>
               </a>
             </li>
@@ -411,7 +482,6 @@
                     width="104"
                     height="56"
                   />
-                  "
                 </svg>
               </a>
             </li>
@@ -423,7 +493,6 @@
                     width="104"
                     height="56"
                   />
-                  "
                 </svg>
               </a>
             </li>
@@ -436,7 +505,6 @@
                     height="56"
                     class="customers-icon-svg"
                   />
-                  "
                 </svg>
               </a>
             </li>
@@ -492,6 +560,25 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe">
+          <p class="subscribe-text">Subscribe</p>
+          <div class="subsribe-input-wrap">
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="E-mail"
+              required
+              class="subscribe-email"
+            />
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="subscribe-button-icon">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>

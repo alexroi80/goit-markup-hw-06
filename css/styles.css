@@ -407,16 +407,20 @@ html {
   align-items: flex-start;
   margin-bottom: 8px;
 }
+.contact-input-wrap{
+  position: relative;
+  width: 100%;
+}
 .modal-contact-icon {
   position: absolute;
   left: 16px;
-  bottom: 11px;
-  width: 18px;
-  height: 18px;
+ top: 50%;
+ transform: translateY(-50%);
   fill: var(--color-main);
 
   transition: fill var(--transition-dur-and-func);
 }
+
 .contact-info-input {
   width: 100%;
   min-height: 40px;
@@ -481,7 +485,9 @@ html {
 }
 
 .checkbox-custom {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 16px;
   height: 16px;
   padding: 0;
